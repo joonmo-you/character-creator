@@ -1,7 +1,6 @@
 .controlPane {
-  padding: 24px;
   /* Optical centering */
-  padding-top: 18px;
+  padding: 18px 24px 24px;
   background-color: white;
   border-radius: 8px;
   /*
@@ -13,9 +12,8 @@
 }
 
 .title {
-  margin: 0;
   /* Optical centering */
-  margin-bottom: -4px;
+  margin: 0 0 -4px;
 }
 
 .metadata {

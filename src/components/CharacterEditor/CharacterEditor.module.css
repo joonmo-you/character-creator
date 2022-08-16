@@ -1,6 +1,15 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  isolation: isolate;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 40vh;
+  background-color: hsl(195deg, 20%, 86%);
 }
 
 .maxWidthWrapper {
